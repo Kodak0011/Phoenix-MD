@@ -10,7 +10,7 @@ DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 
 module.exports = {
   //For Enabling Commands Like AUTO_STATUS_RED Type true For Disenabling Type false
-  ANTILINK: toBool(process.env.ANTI_LINK) || false,
+  ANTILINK: toBool(process.env.ANTI_LINK) || true,
   //_________________________________________________________________________________________________________________________________
   LOGS: toBool(process.env.LOGS) || true,
   //_________________________________________________________________________________________________________________________________
@@ -22,7 +22,7 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
   //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "Phoenix~a3cc2140bce087915520caf61bee9f35", //Enter Your Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~d20a387788310747a448f3294812d4e8", //Enter Your Session Id Here
   //_________________________________________________________________________________________________________________________________
   SUDO: process.env.SUDO || "919074692450",
   //_________________________________________________________________________________________________________________________________
